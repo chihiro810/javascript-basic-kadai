@@ -1,7 +1,7 @@
-let bmiKg;
-bmiKg = 68
+let weight = 68;
 
-let bmiM;
-bmiM = 1.7
+let height = 1.7;
 
-console.log(bmiKg/bmiM*bmiM)
+let BMI = weight / (height * height);
+
+console.log(BMI);
